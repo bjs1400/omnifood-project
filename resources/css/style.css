@@ -103,7 +103,7 @@ h2:after {
     font-weight: 300;
 }
 
-.icon-city {
+.icon-small {
     display: inline-block;
     width: 30px;
     text-align: center;
@@ -402,8 +402,46 @@ cite img {
     border-radius: 5px;
     width: 90%; /* of col span-1-of-3*/
     margin-left: 5%; /*half of remaining 10% */
+    box-shadow: 0 2px 2px #efefef; /*x-axis offset, y-axis offset, blur, color*/
 }
 
 .plan-box div {
-    padding: 15px;
+    padding: 15px; /*of plan-box */
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box div:first-child {
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child {
+    text-align: center;
+    border: none;
+}
+
+.plan-box ul {
+    list-style: none;
+
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
+
+.plan-price {
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #e67e22;
+}
+
+.plan-price span {
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.plan-price-meal {
+    font-size: 80%;
 }
