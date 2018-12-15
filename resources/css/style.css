@@ -282,7 +282,7 @@ header {
 /* HOW IT WORKS */
 /* --------------------- */
 
-.sections-steps {
+.section-steps {
     background-color: #f4f4f4;
 }
 
@@ -387,4 +387,23 @@ cite img {
     border-radius: 50%;
     margin-right: 10px;
     vertical-align: middle;
+}
+
+/* ----------------------*/
+/* SIGNUP SECTION */
+/* --------------------- */
+
+.section-plans {
+    background-color: #f4f4f4;
+}
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%; /* of col span-1-of-3*/
+    margin-left: 5%; /*half of remaining 10% */
+}
+
+.plan-box div {
+    padding: 15px;
 }
